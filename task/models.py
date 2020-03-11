@@ -10,6 +10,7 @@ class Topic(models.Model):
 
 
 class Task(models.Model):
+    helper = models.ManyToManyField(User, related_name='helper')
     topic = models.ForeignKey(Topic, on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)

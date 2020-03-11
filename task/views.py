@@ -36,3 +36,11 @@ class TasksListView(ListAPIView):
 
     def get_queryset(self):
         return Task.objects.filter(owner=self.request.user)
+
+
+class TasksListHelperView(ListAPIView):
+    permission_classes = [IsAuthenticated]
+    serializer_class = TaskSerializer
+
+    def get_queryset(self):
+        return Task.objects.filter(helper=self.request.user)
