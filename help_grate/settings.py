@@ -24,7 +24,7 @@ SECRET_KEY = '!+tc@e5*@0^l68dl&()9*a(iryei)3yxk1(1-c5t^5qm7u$#w0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -129,6 +129,5 @@ REST_FRAMEWORK = {
     )
 }
 
-CORS_ORIGIN_WHITELIST = (
-    'http://localhost:3000',
-)
+CORS_ALLOW_CREDENTIALS = False
+CORS_ORIGIN_ALLOW_ALL = True
