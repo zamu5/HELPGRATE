@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6852d94c-7e4f-41cd-9ad1-b246b16e94b8" name="Default Changelist" comment="Configura la aplicacion de usuario">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3fcfa3be-2c50-4bec-99a4-2ed065e174aa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3fcfa3be-2c50-4bec-99a4-2ed065e174aa.xml" afterDir="false" />
+    <list default="true" id="6852d94c-7e4f-41cd-9ad1-b246b16e94b8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/help_grate/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/help_grate/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/help_grate/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/help_grate/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/task/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/task/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/task/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/task/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +137,7 @@
       <workItem from="1584492882626" duration="5131000" />
       <workItem from="1584539496155" duration="11676000" />
       <workItem from="1584568259300" duration="752000" />
+      <workItem from="1584631853417" duration="242000" />
     </task>
     <task id="LOCAL-00001" summary="Allow CORS from all hosts">
       <created>1583887354322</created>
@@ -169,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583887716757</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[Feature] - Crear tareas, Comentarios ...">
+      <created>1584632082770</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584632082770</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +177,8 @@
     <MESSAGE value="Allow CORS from all hosts" />
     <MESSAGE value="Agrega aplicacion de usuario" />
     <MESSAGE value="Configura la aplicacion de usuario" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configura la aplicacion de usuario" />
+    <MESSAGE value="[Feature] - Crear tareas, Comentarios ..." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Feature] - Crear tareas, Comentarios ..." />
   </component>
   <component name="WindowStateProjectService">
     <state x="282" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583865946631">
@@ -194,10 +193,10 @@
       <screen x="0" y="0" width="1366" height="725" />
     </state>
     <state x="403" y="0" width="561" height="725" key="#help_grate/0.0.1366.725@0.0.1366.725" timestamp="1583866022876" />
-    <state x="0" y="0" width="1366" height="725" key="CommitChangelistDialog2" timestamp="1584631897324">
+    <state x="0" y="0" width="1366" height="725" key="CommitChangelistDialog2" timestamp="1584632082619">
       <screen x="0" y="0" width="1366" height="725" />
     </state>
-    <state x="0" y="0" width="1366" height="725" key="CommitChangelistDialog2/0.0.1366.725@0.0.1366.725" timestamp="1584631897324" />
+    <state x="0" y="0" width="1366" height="725" key="CommitChangelistDialog2/0.0.1366.725@0.0.1366.725" timestamp="1584632082619" />
     <state width="605" height="458" key="DebuggerActiveHint" timestamp="1583370119866">
       <screen x="0" y="0" width="1366" height="725" />
     </state>
@@ -242,10 +241,10 @@
       <screen x="0" y="0" width="1366" height="725" />
     </state>
     <state x="191" y="0" key="SettingsEditor/0.0.1366.725@0.0.1366.725" timestamp="1584126003657" />
-    <state x="282" y="92" key="Vcs.Push.Dialog.v2" timestamp="1583887722448">
+    <state x="282" y="92" key="Vcs.Push.Dialog.v2" timestamp="1584632090904">
       <screen x="0" y="0" width="1366" height="725" />
     </state>
-    <state x="282" y="92" key="Vcs.Push.Dialog.v2/0.0.1366.725@0.0.1366.725" timestamp="1583887722448" />
+    <state x="282" y="92" key="Vcs.Push.Dialog.v2/0.0.1366.725@0.0.1366.725" timestamp="1584632090904" />
     <state x="246" y="95" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1584564451945">
       <screen x="0" y="0" width="1366" height="725" />
     </state>
