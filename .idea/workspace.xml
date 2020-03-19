@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac95488a-d1bf-456f-b9e1-a7e01e85ab32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user/serializers.py" afterDir="false" />
+    <list default="true" id="6852d94c-7e4f-41cd-9ad1-b246b16e94b8" name="Default Changelist" comment="Configura la aplicacion de usuario">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comment/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comment/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3fcfa3be-2c50-4bec-99a4-2ed065e174aa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3fcfa3be-2c50-4bec-99a4-2ed065e174aa.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/help_grate/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/help_grate/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/help_grate/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/help_grate/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/task/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/task/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/task/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/task/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +51,7 @@
         <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="task_task: table" type="3d80ac25:SqliteImplModel$Table" />
+        <item name="task_task_owner: table" type="3d80ac25:SqliteImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -65,7 +69,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1YfgQCq4XxsAIQtaVdC3XT4m3wl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -77,6 +89,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -111,7 +126,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ac95488a-d1bf-456f-b9e1-a7e01e85ab32" name="Default Changelist" comment="" />
+      <changelist id="6852d94c-7e4f-41cd-9ad1-b246b16e94b8" name="Default Changelist" comment="" />
       <created>1583339043132</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -127,6 +142,11 @@
       <workItem from="1583865937307" duration="5618000" />
       <workItem from="1583886946296" duration="2402000" />
       <workItem from="1583936916765" duration="3099000" />
+      <workItem from="1584138821925" duration="5017000" />
+      <workItem from="1584490898725" duration="1849000" />
+      <workItem from="1584492882626" duration="5131000" />
+      <workItem from="1584539496155" duration="11676000" />
+      <workItem from="1584568259300" duration="752000" />
     </task>
     <task id="LOCAL-00001" summary="Allow CORS from all hosts">
       <created>1583887354322</created>
@@ -174,10 +194,10 @@
       <screen x="0" y="0" width="1366" height="725" />
     </state>
     <state x="403" y="0" width="561" height="725" key="#help_grate/0.0.1366.725@0.0.1366.725" timestamp="1583866022876" />
-    <state x="298" y="0" key="CommitChangelistDialog2" timestamp="1583887716695">
+    <state x="0" y="0" width="1366" height="725" key="CommitChangelistDialog2" timestamp="1584631897324">
       <screen x="0" y="0" width="1366" height="725" />
     </state>
-    <state x="298" y="0" key="CommitChangelistDialog2/0.0.1366.725@0.0.1366.725" timestamp="1583887716695" />
+    <state x="0" y="0" width="1366" height="725" key="CommitChangelistDialog2/0.0.1366.725@0.0.1366.725" timestamp="1584631897324" />
     <state width="605" height="458" key="DebuggerActiveHint" timestamp="1583370119866">
       <screen x="0" y="0" width="1366" height="725" />
     </state>
@@ -186,59 +206,67 @@
       <screen x="0" y="0" width="1366" height="725" />
     </state>
     <state x="470" y="114" key="FileChooserDialogImpl/0.0.1366.725@0.0.1366.725" timestamp="1583346168331" />
-    <state width="1320" height="167" key="GridCell.Tab.0.bottom" timestamp="1583941413674">
+    <state width="1320" height="208" key="GridCell.Tab.0.bottom" timestamp="1584568193150">
       <screen x="0" y="0" width="1366" height="725" />
     </state>
-    <state width="1320" height="167" key="GridCell.Tab.0.bottom/0.0.1366.725@0.0.1366.725" timestamp="1583941413674" />
-    <state width="1320" height="167" key="GridCell.Tab.0.center" timestamp="1583941413673">
+    <state width="1320" height="208" key="GridCell.Tab.0.bottom/0.0.1366.725@0.0.1366.725" timestamp="1584568193150" />
+    <state width="1320" height="208" key="GridCell.Tab.0.center" timestamp="1584568193150">
       <screen x="0" y="0" width="1366" height="725" />
     </state>
-    <state width="1320" height="167" key="GridCell.Tab.0.center/0.0.1366.725@0.0.1366.725" timestamp="1583941413673" />
-    <state width="1320" height="167" key="GridCell.Tab.0.left" timestamp="1583941413673">
+    <state width="1320" height="208" key="GridCell.Tab.0.center/0.0.1366.725@0.0.1366.725" timestamp="1584568193150" />
+    <state width="1320" height="208" key="GridCell.Tab.0.left" timestamp="1584568193150">
       <screen x="0" y="0" width="1366" height="725" />
     </state>
-    <state width="1320" height="167" key="GridCell.Tab.0.left/0.0.1366.725@0.0.1366.725" timestamp="1583941413673" />
-    <state width="1320" height="167" key="GridCell.Tab.0.right" timestamp="1583941413674">
+    <state width="1320" height="208" key="GridCell.Tab.0.left/0.0.1366.725@0.0.1366.725" timestamp="1584568193150" />
+    <state width="1320" height="208" key="GridCell.Tab.0.right" timestamp="1584568193150">
       <screen x="0" y="0" width="1366" height="725" />
     </state>
-    <state width="1320" height="167" key="GridCell.Tab.0.right/0.0.1366.725@0.0.1366.725" timestamp="1583941413674" />
-    <state width="1320" height="208" key="GridCell.Tab.1.bottom" timestamp="1583870410491">
+    <state width="1320" height="208" key="GridCell.Tab.0.right/0.0.1366.725@0.0.1366.725" timestamp="1584568193150" />
+    <state width="1320" height="208" key="GridCell.Tab.1.bottom" timestamp="1584568193151">
       <screen x="0" y="0" width="1366" height="725" />
     </state>
-    <state width="1320" height="208" key="GridCell.Tab.1.bottom/0.0.1366.725@0.0.1366.725" timestamp="1583870410491" />
-    <state width="1320" height="208" key="GridCell.Tab.1.center" timestamp="1583870410491">
+    <state width="1320" height="208" key="GridCell.Tab.1.bottom/0.0.1366.725@0.0.1366.725" timestamp="1584568193151" />
+    <state width="1320" height="208" key="GridCell.Tab.1.center" timestamp="1584568193150">
       <screen x="0" y="0" width="1366" height="725" />
     </state>
-    <state width="1320" height="208" key="GridCell.Tab.1.center/0.0.1366.725@0.0.1366.725" timestamp="1583870410491" />
-    <state width="1320" height="208" key="GridCell.Tab.1.left" timestamp="1583870410491">
+    <state width="1320" height="208" key="GridCell.Tab.1.center/0.0.1366.725@0.0.1366.725" timestamp="1584568193150" />
+    <state width="1320" height="208" key="GridCell.Tab.1.left" timestamp="1584568193150">
       <screen x="0" y="0" width="1366" height="725" />
     </state>
-    <state width="1320" height="208" key="GridCell.Tab.1.left/0.0.1366.725@0.0.1366.725" timestamp="1583870410491" />
-    <state width="1320" height="208" key="GridCell.Tab.1.right" timestamp="1583870410491">
+    <state width="1320" height="208" key="GridCell.Tab.1.left/0.0.1366.725@0.0.1366.725" timestamp="1584568193150" />
+    <state width="1320" height="208" key="GridCell.Tab.1.right" timestamp="1584568193151">
       <screen x="0" y="0" width="1366" height="725" />
     </state>
-    <state width="1320" height="208" key="GridCell.Tab.1.right/0.0.1366.725@0.0.1366.725" timestamp="1583870410491" />
-    <state x="191" y="0" key="SettingsEditor" timestamp="1583866001453">
+    <state width="1320" height="208" key="GridCell.Tab.1.right/0.0.1366.725@0.0.1366.725" timestamp="1584568193151" />
+    <state x="191" y="0" key="SettingsEditor" timestamp="1584126003657">
       <screen x="0" y="0" width="1366" height="725" />
     </state>
-    <state x="191" y="0" key="SettingsEditor/0.0.1366.725@0.0.1366.725" timestamp="1583866001453" />
+    <state x="191" y="0" key="SettingsEditor/0.0.1366.725@0.0.1366.725" timestamp="1584126003657" />
     <state x="282" y="92" key="Vcs.Push.Dialog.v2" timestamp="1583887722448">
       <screen x="0" y="0" width="1366" height="725" />
     </state>
     <state x="282" y="92" key="Vcs.Push.Dialog.v2/0.0.1366.725@0.0.1366.725" timestamp="1583887722448" />
+    <state x="246" y="95" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1584564451945">
+      <screen x="0" y="0" width="1366" height="725" />
+    </state>
+    <state x="246" y="95" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.725@0.0.1366.725" timestamp="1584564451945" />
+    <state x="369" y="97" width="628" height="530" key="find.popup" timestamp="1584140216351">
+      <screen x="0" y="0" width="1366" height="725" />
+    </state>
+    <state x="369" y="97" width="628" height="530" key="find.popup/0.0.1366.725@0.0.1366.725" timestamp="1584140216351" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework/mixins.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/task/views.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/task/views.py</url>
-          <line>19</line>
-          <option name="timeStamp" value="9" />
+          <url>file://$PROJECT_DIR$/task/models.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

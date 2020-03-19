@@ -22,6 +22,9 @@ class Task(models.Model):
     owner = models.ManyToManyField(User)
     description = models.TextField()
 
+    class Meta:
+        pass
+
     def __str__(self):
         return self.title
 
@@ -30,7 +33,8 @@ class Task(models.Model):
 def my_handler(sender, **kwargs):
     slug_id = uuid4()
 
-    for _ in range(8):
-        if not Task.objects.filter(id=slug_id).exists():
-            kwargs['instance'].id = slug_id
-            break
+    if not kwargs['instance'].id:
+        for _ in range(8):
+            if not Task.objects.filter(id=slug_id).exists():
+                kwargs['instance'].id = slug_id
+                break
